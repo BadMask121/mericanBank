@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="node_modules/lodash/lodash.js" type="text/javascript"></script>
+    <script src="node_modules/cloudinary-core/cloudinary-core.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+<form id="form" class="" action="index.html" method="post">
+  <input type="file" name="file-u" value="" id="file-u">
+  <input type="submit" name="sumit" id="go" value="insert image">
+</form>
+<script type="text/javascript">
+
+var CLOUDNARY_URL="https://api.cloudinary.com/v1_1/dp1lewjma/upload";
+var CLOUDNARY_UPLOAD_PRESET ="tmqoqgpt";
+
+var fileupload = document.getElementById('file-u');
+
+fileupload.addEventListener('change',function(event) {
+
+var file=event.target.files[0];
+var formdata = new FormData();
+
+console.log(file);
+formdata.append("file",file);
+formdata.append('upload_preset',CLOUDNARY_UPLOAD_PRESET);
+
+
+axios({
+url:CLOUDNARY_URL,
+method:'POST',
+headers:{
+'Content-Type':'application/x-www-form-urlencoded'
+},
+data:formdata
+}).then(function(res) {
+  console.log(res.data.public_id);
+  alert("Done");
+}).catch(function (err) {
+console.log(err);
+});
+
+});
+
+
+</script>
+  </body>
+</html>

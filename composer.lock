@@ -1,0 +1,265 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5611cd5d39630aa1a190eb2400524e2d",
+    "packages": [
+        {
+            "name": "alrik11es/cowsayphp",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alrik11es/cowsayphp.git",
+                "reference": "080dc10c8f5420fef35163569293601f17124eeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alrik11es/cowsayphp/zipball/080dc10c8f5420fef35163569293601f17124eeb",
+                "reference": "080dc10c8f5420fef35163569293601f17124eeb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "bin": [
+                "bin/cowsayphp"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cowsayphp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Sigueros",
+                    "email": "alrik11es@gmail.com",
+                    "homepage": "https://github.com/alrik11es",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Cowsay port in PHP",
+            "homepage": "https://github.com/alrik11es/cowsayphp",
+            "keywords": [
+                "cowsay"
+            ],
+            "time": "2016-08-25T07:53:44+00:00"
+        },
+        {
+            "name": "cloudinary/cloudinary_php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudinary/cloudinary_php.git",
+                "reference": "658962014339ac21e8cab6f7cde6a73a5636d826"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/658962014339ac21e8cab6f7cde6a73a5636d826",
+                "reference": "658962014339ac21e8cab6f7cde6a73a5636d826",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ],
+                "files": [
+                    "src/Helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cloudinary",
+                    "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
+                }
+            ],
+            "description": "Cloudinary PHP SDK",
+            "homepage": "https://github.com/cloudinary/cloudinary_php",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "cloudinary",
+                "image management",
+                "sdk"
+            ],
+            "time": "2018-02-21T09:12:34+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "b704c49a3051536f67f2d39f13568f74615b9922"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b704c49a3051536f67f2d39f13568f74615b9922",
+                "reference": "b704c49a3051536f67f2d39f13568f74615b9922",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Logging for PHP 5.3",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2011-10-24T09:39:02+00:00"
+        },
+        {
+            "name": "uploadcare/uploadcare-php",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uploadcare/uploadcare-php.git",
+                "reference": "73a0941c07893a37045c2ae015c6ce911e63ad2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uploadcare/uploadcare-php/zipball/73a0941c07893a37045c2ae015c6ce911e63ad2d",
+                "reference": "73a0941c07893a37045c2ae015c6ce911e63ad2d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "=4.8.36",
+                "squizlabs/php_codesniffer": ">=2.9.1,<4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Uploadcare": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Uploadcare, LLC",
+                    "email": "hello@uploadcare.com"
+                }
+            ],
+            "description": "Uploadcare API binding for PHP",
+            "homepage": "https://uploadcare.com",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "files",
+                "image management",
+                "upload",
+                "uploadcare"
+            ],
+            "time": "2017-09-26T11:50:34+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v131",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "06a81e71d94115668de3f202547fd9d517dc76ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/06a81e71d94115668de3f202547fd9d517dc76ca",
+                "reference": "06a81e71d94115668de3f202547fd9d517dc76ca",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2018-02-12T23:40:16+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cloudinary/cloudinary_php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

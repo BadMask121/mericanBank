@@ -1,0 +1,29 @@
+{
+  "name": "merican",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "dependencies": {
+    "cloudinary-core": "^2.5.0",
+    "ejs": "^2.5.7",
+    "eslint": "^4.18.2",
+    "formidable": "^1.1.1",
+    "mysql": "^2.14.1",
+    "siege": "^0.2.0",
+    "uploadcare-widget": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aceEfetheHero/mericanBank"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aceEfetheHero/mericanBank/issues"
+  },
+  "homepage": "https://github.com/aceEfetheHero/mericanBank"
+}
